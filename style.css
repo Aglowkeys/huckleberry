@@ -1,6 +1,23 @@
+/* 
+	The idea was to replicate the given designs without using Grid, Flex, or positioning.
+	Everything should be made using borders, paddings, and margins (i.e., only Flow layout).
+*/
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+}
+
+:root {
+	--primary: hsl(160deg, 100%, 30%);
+	--secondary: hsl(45deg, 100%, 50%);
+	--secondary-dark: hsl(45deg, 100%, 40%);
+	--black: hsl(0deg, 0%, 0%)
+	--gray-400: hsl(0deg, 0%, 10%);
+	--gray-300: hsl(0deg, 0%, 30%);
+	--gray-200: hsl(0deg, 0%, 40%);
+	--gray-100: hsl(0deg, 0%, 60%);
+	--white: hsl(0deg, 0%, 100%);
 }
 
 html,
