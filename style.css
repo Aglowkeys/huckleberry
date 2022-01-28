@@ -27,3 +27,55 @@ body {
 }
 
 /* Add styles here! */
+
+header {
+	margin-top: 48px;
+	padding-bottom: 48px;
+	border-bottom: 8px solid var(--gray-200);
+}
+
+main {
+	background-color: var(--gray-100);
+	padding: 48px 0;
+}
+
+section {
+	border-bottom: 8px solid var(--gray-200);
+	background-color: var(--white);
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+p {
+	line-height: 1.4;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
+}
+
+strong {
+	color: var(--primary);
+}
+
+.max-width-wrapper {
+	max-width: 650px;
+	width: 100%;
+	padding: 16px;
+	/* background-color: red; */
+	margin: 0 auto
+}
+
+.intro-chunk p {
+	max-width: 35ch;
+}
+
+.indented-heading {
+	background-color: var(--secondary);
+	border-bottom: 8px solid var(--secondary-dark);
+	padding: 16px 24px;
+	width: fit-content;
+	margin-left: -24px;
+}
